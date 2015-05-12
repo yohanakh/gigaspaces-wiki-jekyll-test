@@ -1,0 +1,30 @@
+<div id="footer">
+  <div class="container">
+    <p style="text-align:center;margin: 20px 0" class="text-muted credit">&copy; GigaSpaces Technologies, 2014. Powered by <a href="http://jekyllrb.com/">Jekyll</a>, Web Site Sources Hosted on <a href="http://github.com/Gigaspaces/gigaspaces-wiki-jekyll">Github</a>.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/terms-of-use.html">Terms of Use</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/release_notes/third-party.html">3rd Party License Agreements</a></p>
+  </div>
+
+  <a href="#top" id="toTop"></a>
+</div>
+
+<script src="/js/jquery.scrollToTop.min.js"></script>
+
+<script type="text/javascript">
+    $(function() {
+    $("#toTop").scrollToTop(1000);
+    });
+</script>
+
+
+
+<script type="text/javascript">
+    //mixpanel tracking 
+    if(mixpanel.cookie.props.Email) {
+        mixpanel.identify(mixpanel.cookie.props.Email);
+    }
+
+    var pageObj = {'Page Name' : document.title, 'URL' : window.location.pathname};
+    mixpanel.track('XAP Docs Page View', pageObj);
+    mixpanel.people.increment('XAP docs page views');
+
+</script>
+

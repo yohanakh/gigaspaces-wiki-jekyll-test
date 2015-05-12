@@ -1,0 +1,143 @@
+name: Gigaspace XAP Documentation Portal
+markdown: kramdown
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlight: true
+encoding: UTF-8
+
+latest_xap_release: "10.1"
+
+# latest_xap_version: "10.0.1"
+
+# latest_maven_version: "10.0.0-11600-RELEASE"
+
+petclinic_jpa_branch: "10_0_0_ga"
+
+# latest_build_filename: "gigaspaces-xap-premium-10.0.0-ga-b11600.zip"
+# latest_msi_filename: "GigaSpaces-XAP.NET-Premium-10.0.0.11600-GA-x86.msi"
+# latest_gshome_dirname: "gigaspaces-xap-premium-10.0.0-ga"
+# latest_gshome_net_dirname: "XAP.NET 10.0.0 x86"
+# latest_default_lookup_group: "gigaspaces-10.0.0-XAPPremium-ga"
+
+latest_java_url: "/xap101"
+latest_net_url: "/xap101net"
+latest_adm_url: "/xap101adm"
+latest_sec_url: "/xap101sec"
+latest_net_tut_url: "/xap101nettut"
+latest_java_tut_url: "/xap101tut"
+
+
+latest_cloudify_release: "2.7"
+
+base_javadoc_url: "http://www.gigaspaces.com/docs/JavaDoc%{version}/index.html?%{fqcn}.html"
+base_scaladoc_url: "http://www.gigaspaces.com/docs/scaladocs%{version}/#%{fqcn}"
+base_dotnetdoc_url: "http://www.gigaspaces.com/docs/dotnetdocs%{version}/html/T_%{fqcn}.htm"
+
+categories-list: ["PRODUCT_OVERVIEW", "API_DOCUMENTATION","EARLY_ACCESS", "HOWTO" , "SBP","FAQ" ,"RELEASE_NOTES" ,
+"XAP97", "XAP97NET",  "XAP97ADM",
+"XAP100","XAP100NET", "XAP100ADM","XAP100SEC",
+"XAP101","XAP101NET", "XAP101ADM","XAP101SEC","XAP101TUT", "XAP101NETTUT",
+"XAP102","XAP102NET", "XAP102ADM","XAP102SEC","XAP102TUT", "XAP102NETTUT"]
+
+
+
+#  9.7 Definitions
+9.7-maven-version:        "9.7.0-10496-RELEASE"
+9.7-gshome-directory:     "gigaspaces-xap-premium-9.7.0-ga"
+9.7-default-lookup-group: "gigaspaces-9.7.0-XAPPremium-ga"
+9.7-build-filename:       "gigaspaces-xap-premium-9.7.0-ga-b10496.zip"
+9.7-xap-version:          "9.7.0"
+9.7-xap-release:          "9.7"
+9.7-msi-filename:         "GigaSpaces-XAP.NET-Premium-9.7.0.10496-GA-x86.msi"
+9.7-gshome-net-directory: "XAP.NET 9.7.0 x86"
+
+
+# 10.0 Definitions
+10.0-java-version:         "7"
+
+# Jar versions
+10.0-spring:               "3.2"
+10.0-mongo-java-driver:    "2.11.2"
+10.0-antlr4-runtime:       "4.0"
+10.0-mongo-datasource:     "10.0.0-SNAPSHOT"
+10.0-openjpa:              "2.0.1"
+10.0-cassandra-clientutil: "1.1.6"
+10.0-cassandra-thrift:     "1.1.6"
+10.0-cassandra-jdbc:       "1.1.2"
+10.0-hector-core:          "1.1-2"
+10.0-slf4j-api:            "1.6.6"
+10.0-slf4j-jdk14:          "1.6.6"
+
+# Path and versions
+10.0-maven-version:        "10.0.1-11800-RELEASE"
+10.0-gshome-directory:     "gigaspaces-xap-premium-10.0.1-ga"
+10.0-default-lookup-group: "gigaspaces-10.0.1-XAPPremium-ga"
+10.0-build-filename:       "gigaspaces-xap-premium-10.0.1-ga-b11800.zip"
+10.0-xap-version:          "10.0"
+10.0-xap-release:          "10.0.1"
+
+# DOT NET
+10.0-msi-filename:          "GigaSpaces-XAP.NET-Premium-10.0.1.11800-GA-x86.msi"
+10.0-gshome-net-directory:  "XAP.NET 10.0.1 x86"
+
+
+# 10.1 Definitions
+10.1-java-version:         "7"
+
+# Jar versions
+10.1-spring:               "4.1"
+10.1-mongo-java-driver:    "2.11.2"
+10.1-antlr4-runtime:       "4.0"
+10.1-mule:                 "3.5"
+10.1-mongo-datasource:     "10.0.0-SNAPSHOT"
+10.1-openjpa:              "2.0.1"
+10.1-cassandra-clientutil: "1.1.6"
+10.1-cassandra-thrift:     "1.1.6"
+10.1-cassandra-jdbc:       "1.1.2"
+10.1-hector-core:          "1.1-2"
+10.1-slf4j-api:            "1.6.6"
+10.1-slf4j-jdk14:          "1.6.6"
+
+# Path and versions
+10.1-maven-version:        "10.1.0-12600-RELEASE"
+10.1-gshome-directory:     "gigaspaces-xap-premium-10.1.0-ga"
+10.1-default-lookup-group: "gigaspaces-10.1.0-XAPPremium-ga"
+10.1-build-filename:       "gigaspaces-xap-premium-10.1.0-ga-b12600.zip"
+10.1-xap-version:          "10.1"
+10.1-xap-release:          "10.1"
+
+# DOT NET
+10.1-msi-filename:          "GigaSpaces-XAP.NET-Premium-10.1.0.12600-GA-x86.msi"
+10.1-gshome-net-directory:  "XAP.NET 10.1.0 x86"
+
+
+# 10.2 Definitions
+10.2-java-version:         "7"
+
+# Jar versions
+10.2-spring:               "4.1"
+10.2-mongo-java-driver:    "2.11.2"
+10.2-antlr4-runtime:       "4.0"
+10.2-mule:                 "3.5"
+10.2-mongo-datasource:     "10.0.0-SNAPSHOT"
+10.2-openjpa:              "2.0.1"
+10.2-cassandra-clientutil: "1.1.6"
+10.2-cassandra-thrift:     "1.1.6"
+10.2-cassandra-jdbc:       "1.1.2"
+10.2-hector-core:          "1.1-2"
+10.2-slf4j-api:            "1.6.6"
+10.2-slf4j-jdk14:          "1.6.6"
+
+# Path and versions
+10.2-maven-version:        "10.1.0-12600-RELEASE"
+10.2-gshome-directory:     "gigaspaces-xap-premium-10.1.0-ga"
+10.2-default-lookup-group: "gigaspaces-10.1.0-XAPPremium-ga"
+10.2-build-filename:       "gigaspaces-xap-premium-10.1.0-ga-b12600.zip"
+10.2-xap-version:          "10.1"
+10.2-xap-release:          "10.1"
+
+# DOT NET
+10.2-msi-filename:          "GigaSpaces-XAP.NET-Premium-10.1.0.12600-GA-x86.msi"
+10.2-gshome-net-directory:  "XAP.NET 10.1.0 x86"
+
+
