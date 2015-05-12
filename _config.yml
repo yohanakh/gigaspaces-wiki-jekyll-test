@@ -4,7 +4,7 @@ redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlight: true
 encoding: UTF-8
-
+source: ./_source
 latest_xap_release: "10.1"
 
 # latest_xap_version: "10.0.1"
