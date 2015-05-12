@@ -1,0 +1,16 @@
+[submodule "_source/xap97"]
+	path = _source/xap97
+	url = ../gigaspaces-wiki-jekyll-test.git
+	branch = xap97
+[submodule "_source/xap100"]
+	path = _source/xap100
+	url = ../gigaspaces-wiki-jekyll-test.git
+	branch = xap100
+[submodule "_source/xap101"]
+	path = _source/xap101
+	url = ../gigaspaces-wiki-jekyll-test.git
+	branch = xap101
+[submodule "_source/xap102"]
+	path = _source/xap102
+	url = ../gigaspaces-wiki-jekyll-test.git
+	branch = xap102
